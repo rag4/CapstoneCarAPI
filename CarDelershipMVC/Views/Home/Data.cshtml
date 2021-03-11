@@ -1,0 +1,36 @@
+﻿@model List<Cars>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<table>
+    <tr>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Color</th>
+    </tr>
+    @foreach (Cars c in Model)
+    {
+        <tr>
+            <td>@c.make</td>
+            <td>@c.model</td>
+            <td> @c.year</td>
+            <td>@c.color</td>
+        </tr>
+    }
+</table>
+

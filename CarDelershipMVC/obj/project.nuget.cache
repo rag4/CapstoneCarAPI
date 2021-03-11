@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gShSdpk/UWNJzgXEZfJZgQtp1ajxNjeiFUa3RciDdZgNQyyLxbYjlOF570YiYquMt5mqjSZPAkDoQ78GTxAFew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RAMON\\source\\repos\\CarDealership\\CarDelershipMVC\\CarDelershipMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RAMON\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
